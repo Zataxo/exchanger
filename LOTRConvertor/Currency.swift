@@ -15,6 +15,7 @@ enum Currency: String, CaseIterable, Identifiable {
     case goldPiece
     
     var id: Currency { self }
+    // reset
     
     var multiplier: Double {
         switch self {
